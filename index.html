@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+<title>Document</title>
+</head>
+<style>
+    .ul{
+      margin-left: 60%;
+      font-size: 20px;
+    }
+    .img{
+     width: 250px;
+     height: 130px;
+    }
+
+.main h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.eng{
+  position: absolute;
+  bottom: 140px;
+  left: 80px;
+  transform: rotate(90deg);
+  font-size: 20px;
+}
+.jap{
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+  transform: rotate(90deg);
+  font-size: 20px;
+}
+.navbar-expand-lg{
+   background-color:#101010;
+}
+.h2{
+ display: inline-block;
+}
+.h2{
+  display: flex;
+  margin-left: 40%;
+}
+h2 {
+      font-size: 2rem;
+      border-right: 2px solid #38bdf8;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: typing 2s steps(30, end) forwards, blink 0.7s infinite step-end alternate;
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 20ch; }
+    }
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+    .icon{
+      position: absolute;
+      bottom: 70px;
+      right: 50px;
+    }
+    .icon div{
+      margin-top: 20px;
+    }
+    .icon i{
+      font-size: 25px;
+    }
+     .hero-image img {
+      width: 80%;
+      max-width: 400px;
+      border-radius: 20px;
+     }
+     .hero-image {
+      flex: 1;
+      text-align: center;
+      animation: fadeInRight 1.5s ease-in-out;
+    }
+     .hero-text {
+      flex: 1;
+      min-width: 300px;
+      animation: fadeInLeft 1.5s ease-in-out;
+    }
+    .hero-text h1 {
+      font-size: 3rem;
+      color: #00d8ff;
+      font-weight: 700;
+    }
+.hero-text p {
+      font-size: 1.1rem;
+      margin-top: 15px;
+      line-height: 1.6;
+      color: #ddd;
+    }
+     .hero-image img:hover{
+ box-shadow: 0 0 50px white;
+ transition: transform 1s;
+ transform: translateY(-20px);
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="sheraz ali.png" alt="" class="thumbnail img"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ul">
+      <li class="nav-item">
+          <a class="nav-link text-white ms-3" aria-current="page" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white ms-3" href="resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white ms-3" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white ms-3" href="blog.html">Blog</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-white ms-3" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section>
+    <div class="container-fluid bg-dark main">
+      <div class="row pt-5">
+        <div class="col-6">
+          <div class="hero-image"><img src="WhatsApp Image 2025-09-19 at 22.42.38_8827a121.jpg" alt="sheraz ali"></div>
+        </div>
+         <div class="hero-text col-6 mt-5 pt-5">
+      <h1>I'm Sheraz Ali</h1>
+      <p>I am a <strong>Web Developer</strong> with a passion for creating modern, attractive, and fully responsive websites. My goal is to build web experiences that are not only visually appealing but also fast, secure, and user-friendly. I specialize in turning ideas into reality using HTML, CSS, JavaScript, and modern frameworks. With a strong interest in both coding and design, I’m always eager to learn new technologies and improve my skills to deliver high-quality digital solutions.</p>
+    </div>
+      </div>
+  <span class="eng">Eng</span>
+  <span class="jap">Jap</span>
+  <div class="icon">
+     <div><i class="fab fa-twitter"></i></div>
+    <div><i class="fab fa-facebook"></i></div> 
+    <div><i class="fab fa-linkedin"></i></div> 
+     <div><i class="fab fa-github"></i></div>
+    <div><i class="fab fa-instagram"></i></div> 
+  </div>
+    </div>
+</section>
+</body>
+</html>
